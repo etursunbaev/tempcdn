@@ -1,11 +1,11 @@
 [
     {
-        "id": "037e683b-71b6-467d-aa8b-730975117964",
+        "id": "1a67bbcc-799e-4441-89e4-9c9f8b3081e4",
         "hash": {
-            "md5": "75fb0cbe34215d6b11caf2a1f0ab5933",
-            "sha256": "357daac455468f422b2e8e376874e78533f6f6142117343620fb000f2bdbc1f5"
+            "md5": "55d0a682e206394e761b23db779e3121",
+            "sha256": "3969a22eda0d5454968b6d66a3aaa21e0c0f8acc97d401e52bdd06cc3e5fc4f6"
         },
-        "size": 33373728,
+        "size": 33803008,
         "name": "SubutaiControlCenter",
         "tags": [
             ""
@@ -13,9 +13,9 @@
         "owner": [
             "jenkins"
         ],
-        "version": "7.1.5",
+        "version": "7.3.0",
         "filename": "SubutaiControlCenter",
-        "upload-date-formatted": "2018-08-02T08:54:05.515246579Z",
-        "upload-date-timestamp": "1533200045"
+        "upload-date-formatted": "2018-11-07T09:23:19.031100212Z",
+        "upload-date-timestamp": "1541582599"
     }
 ]
