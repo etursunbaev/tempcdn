@@ -26,9 +26,9 @@ app.get("/kurjun/rest/raw/download", function(req, res) {
     var id = req.query["id"];
     
     if (name) {
-        res.sendFile("download/" + name, {root: "./"});
+        res.download("download/" + name);
     } else {
-        res.sendFile("download/" + id, {root: "./"});   
+        res.download("download/" + id, child);
     }
 });
 
