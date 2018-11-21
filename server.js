@@ -18,8 +18,13 @@ app.get("/kurjun/rest/raw/id", function (req, res) {
 app.get("/kurjun/rest/raw/info", function (req, res) {
     var name = req.query["name"];
     res.type("text/plain");
-    res.sendFile("info/" + name, {root: "./"});
+    if (name) {
+        res.sendFile("info/" + name, {root: "./"});
+    } else {
+        res.sendFile("info/" + id, {root: "./"});
+    }
 });
+    
 
 app.get("/kurjun/rest/raw/download", function (req, res) {
     var name = req.query["name"];
