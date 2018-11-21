@@ -17,7 +17,7 @@ app.get("/kurjun/rest/raw/id", function (req, res) {
 
 app.get("/kurjun/rest/raw/info", function (req, res) {
     var name = req.query["name"];
-    var name = req.query["id"];
+    var id = req.query["id"];
     res.type("text/plain");
     if (name) {
         res.sendFile("info/" + name, {root: "./"});
